@@ -20,6 +20,7 @@ export default {
     margin: 50px auto;
     .blogLogo{
       width: 300px;
+      margin-bottom: 10px;
     }
   }
 </style>

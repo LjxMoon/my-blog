@@ -22,6 +22,7 @@ export default {
     border-bottom: 1px solid #E6E6E6;
     .articleContext{
       margin: 15px auto;
+      text-indent: 2em;
     }
     .readmore{
       font-size: 20px;

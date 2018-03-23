@@ -20,9 +20,9 @@ export default {
       display: flex;
       justify-content: center;
       .navItem{
-        display: inline-block;
-        padding: 10px 20px;
+        padding: 5px 10px;
         margin: 0 5px;
+        font-size: 16px;
         overflow: hidden;
         cursor: pointer;
         &:hover{
@@ -30,7 +30,7 @@ export default {
           border-radius: 2px;
         }
         .iconfont{
-          font-size: 12px;
+          font-size: 18px;
         }
       }
       .isActive{
