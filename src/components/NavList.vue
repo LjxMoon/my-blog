@@ -1,9 +1,9 @@
 <template>
   <div class="nav">
     <ul class="navList">
-      <li class="navItem"><i class="iconfont icon-home"></i>首页</li>
-      <li class="navItem"><i class="iconfont icon-files"></i>归档</li>
-      <li class="navItem"><i class="iconfont icon-about"></i>关于</li>
+      <router-link class="navItem" to="/"><i class="iconfont icon-home"></i>首页</router-link>
+      <router-link class="navItem" to="/archives"><i class="iconfont icon-files"></i>归档</router-link>
+      <router-link class="navItem" to="/about"><i class="iconfont icon-about"></i>关于</router-link>
     </ul>
   </div>
 </template>
@@ -23,6 +23,7 @@ export default {
         padding: 5px 10px;
         margin: 0 5px;
         font-size: 16px;
+        color: #000;
         overflow: hidden;
         cursor: pointer;
         &:hover{

@@ -1,17 +1,21 @@
 <template>
   <div class="article">
-
+    <ArticleBlock></ArticleBlock>
   </div>
 </template>
 
 <script>
-export default {
+import ArticleBlock from '@/components/ArticleIntroBlock'
 
+export default {
+  components: {
+    ArticleBlock
+  }
 }
 </script>
 
 <style lang="scss" scoped>
   .article{
-    
+
   }
 </style>

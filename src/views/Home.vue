@@ -20,6 +20,8 @@ export default {
 
 <style lang="scss" scoped>
   .homePage{
-
+    .page{
+      text-align: center;
+    }
   }
 </style>

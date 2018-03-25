@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    关于我
+  <div class="archives">
+    归档
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .about{
+  .archives{
 
   }
 </style>
